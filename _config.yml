@@ -398,12 +398,12 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener noreferrer">Powered by <img src="self_images/upyun_logos/又拍云_logo6.png" alt="又拍云" align="top" height="28"></a> | 鄂ICP备17010643号-1
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
     url:
-    text: 鄂ICP备17010643号-1
+    text: 
     # icon: /img/icp.png
 
 # Analysis
@@ -840,13 +840,13 @@ lazyload:
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
-# pwa:
-#   enable: false
-#   manifest: /image/pwa/manifest.json
-#   apple_touch_icon: /image/pwa/apple-touch-icon.png
-#   favicon_32_32: /image/pwa/32.png
-#   favicon_16_16: /image/pwa/16.png
-#   mask_icon: /image/pwa/safari-pinned-tab.svg
+pwa:
+  enable: true
+  manifest: /image/pwa/manifest.json
+  apple_touch_icon: /image/pwa/apple-touch-icon.png
+  favicon_32_32: /image/pwa/32.png
+  favicon_16_16: /image/pwa/16.png
+  mask_icon: /image/pwa/safari-pinned-tab.svg
 
 # Disable Baidu transformation on mobile devices (禁止百度轉碼)
 disable_baidu_transformation: true
@@ -868,6 +868,7 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
